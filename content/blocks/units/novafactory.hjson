@@ -1,0 +1,51 @@
+type: UnitFactory
+name: Nova Factory
+description: Nova Factory
+
+health: 99000
+size: 3
+itemCapacity: 30
+
+consumes: {}
+	
+plans: [
+
+	{
+		unit: goldenNova
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: goldenPulsar
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: goldenQuasar
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: goldenVela
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: goldenCorvus
+		requirements: []
+		time: 90
+	}
+
+]
+
+requirements: [ ]
+buildCostMultiplier: 0.1
+
+category: units
+research: duo
+
+alwaysUnlocked: true

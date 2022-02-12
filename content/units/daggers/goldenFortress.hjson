@@ -1,0 +1,40 @@
+health: 2250
+armor: 3
+
+speed: 1.0
+drag: 0.2
+type: mech
+hitSize: 10
+targetAir: true
+
+weapons: [{
+  name: goldArtillery
+  x: 9
+  y: 0
+  reload: 30
+  alternate: true
+  recoil: 4
+  shake: 2
+  ejectEffect: casing2
+  bullet: {
+    type: ArtilleryBulletType
+    speed: 2
+    damage: 180
+    sprite: shell
+    hitEffect: blastExplosion
+    knockback: 0.8
+    lifetime: 110
+    width: 14
+    height: 14
+    collides: true
+    collidesTiles: true
+    splashDamageRadius: 32
+    splashDamage: 76
+    backColor: f0e4a8
+    frontColor: ffffff
+  }
+  shootSound: artillery
+}]
+
+research: goldenMace
+alwaysUnlocked: true

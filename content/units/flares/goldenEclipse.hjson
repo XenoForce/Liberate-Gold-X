@@ -1,0 +1,37 @@
+health: 33000
+armor: 9
+
+speed: 3.5
+drag: 0.02
+type: flying
+hitSize: 56
+range: 180
+flying: true
+engineOffset: 40
+engineSize: 7.3
+rotateSpeed: 1
+baseRotateSpeed: 0.4
+
+weapons: [{
+  name: goldEclipseGun
+  x: -32
+  y: 0
+  reload: 6
+  shootCone: 100
+  shake: 1
+  inaccuracy: 3
+  alternate: true
+  ejectEffect: none
+  bullet: {
+    type: BasicBulletType
+    speed: 8
+    damage: 180
+    width: 15
+    height: 21
+    shootEffect: shootBig
+  }
+  shootSound: shootBig
+}]
+
+research: goldenAntumbra
+alwaysUnlocked: true

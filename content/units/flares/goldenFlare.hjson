@@ -1,0 +1,21 @@
+health: 225
+armor: 1
+
+speed: 3.5
+drag: 0.01
+type: flying
+flying: true
+engineOffset: 5.5
+range: 140
+
+weapons: [{
+  y: 1.5
+  reload: 11
+  alternate: true
+  ejectEffect: casing1
+  bullet: standardThorium
+  shootSound: shoot
+}]
+
+research: airfactory
+alwaysUnlocked: true

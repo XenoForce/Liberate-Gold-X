@@ -1,0 +1,23 @@
+health: 1000
+armor: 2
+
+speed: 1
+drag: 0.2
+type: mech
+hitSize: 14
+range: 15
+
+weapons: [{
+  name: goldFlamethrower
+  x: 4
+  y: 0
+  shootSound: flame
+  reload: 7
+  alternate: true
+  recoil: 1
+  ejectEffect: none
+  bullet: pyraFlame
+}]
+
+research: sniper
+alwaysUnlocked: true

@@ -1,0 +1,35 @@
+health: 400
+armor: 2
+
+speed: 3.5
+drag: 0.03
+type: flying
+mineTier: 3
+range: 120
+flying: true
+itemCapacity: 100
+buildSpeed: 3.2
+
+weapons: [{
+  name: shellLauncher
+  x: -6
+  y: 8
+  reload: 14
+  shots: 2
+  shotDelay: 2
+  alternate: true
+  ejectEffect: none
+  velocityRnd: 0.2
+  inaccuracy: 2
+  bullet: {
+    type: BasicBulletType
+    lifetime: 60
+    speed: 5
+    width: 8
+    height: 8
+    damage: 108
+  }
+}]
+
+research: sigma
+alwaysUnlocked: true

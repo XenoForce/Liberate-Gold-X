@@ -1,0 +1,51 @@
+type: UnitFactory
+name: Crawler Factory
+description: Crawler Factory
+
+health: 99000
+size: 3
+itemCapacity: 30
+
+consumes: {}
+	
+plans: [
+
+	{
+		unit: goldenCrawler
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: goldenAtrax
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: goldenSpiroct
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: goldenArkyid
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: goldenToxopid
+		requirements: []
+		time: 90
+	}
+
+]
+
+requirements: [ ]
+buildCostMultiplier: 0.1
+
+category: units
+research: duo
+
+alwaysUnlocked: true

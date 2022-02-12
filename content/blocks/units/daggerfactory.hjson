@@ -1,0 +1,57 @@
+type: UnitFactory
+name: Dagger Factory
+description: Dagger Factory
+
+health: 99000
+size: 3
+itemCapacity: 30
+
+consumes: {}
+	
+plans: [
+
+	{
+		unit: goldenDagger
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: sniper
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: goldenMace
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: goldenFortress
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: goldenScepter
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: goldenReign
+		requirements: []
+		time: 90
+	}
+
+]
+
+requirements: [ ]
+buildCostMultiplier: 0.1
+
+category: units
+research: duo
+
+alwaysUnlocked: true

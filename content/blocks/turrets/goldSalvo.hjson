@@ -1,0 +1,56 @@
+type: ItemTurret
+
+health: 960
+size: 2
+range: 170
+reloadTime: 30
+restitution: 0.03
+coolantMultiplier: 20
+ammoEjectBack: 3
+cooldown: 0.03
+shootShake: 2
+burstSpacing: 3
+shots: 4
+ammoUseEffect: casing4
+shootSound: shootBig
+
+
+ammoTypes: {
+
+copper: {
+  type: BasicBulletType
+  width: 9
+  height: 12
+  lifetime: 60
+  speed: 3
+  damage: 140
+  splashDamage: 40
+  splashDamageRadius: 32
+  
+  fragBullets: 6
+  ammoMultiplier: 5
+  frontColor: 109ee0
+  backColor: 1c7fa6
+  sprite: libgoldx-heShell
+  homingPower: 1
+  homingRange: 40
+  
+  fragBullet: {
+    type: BasicBulletType
+    width: 3
+    height: 4
+    damage: 24
+    sprite: shell
+    lifetime: 30
+    speed: 2
+  }
+}}
+
+
+requirements: [ copper/1 ]
+buildCostMultiplier: 0.1
+
+category: turret
+research: goldDuo
+
+alwaysUnlocked: true

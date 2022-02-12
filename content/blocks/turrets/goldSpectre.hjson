@@ -1,0 +1,32 @@
+type: ItemTurret
+
+health: 4800
+size: 4
+range: 240
+shootShake: 1
+shootSound: shootBig
+
+
+ammoTypes: {
+
+copper: {
+  type: BasicBulletType
+  width: 15
+  height: 21
+  lifetime: 60
+  speed: 7
+  damage: 180
+  pierce: true
+  ammoMultiplier: 5
+  frontColor: F0E4A8
+  backColor: deae66
+}}
+
+
+requirements: [ copper/1 ]
+buildCostMultiplier: 0.1
+
+category: turret
+research: goldMeltdown
+
+alwaysUnlocked: true

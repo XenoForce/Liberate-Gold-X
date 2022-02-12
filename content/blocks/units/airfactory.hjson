@@ -1,0 +1,63 @@
+type: UnitFactory
+name: Air Factory
+description: Air Factory
+
+health: 99000
+size: 3
+itemCapacity: 30
+
+consumes: {}
+	
+plans: [
+
+	{
+		unit: goldenFlare
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: goldenHorizon
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: goldenZenith
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: greenAntumbra
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: redAntumbra
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: goldenAntumbra
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: goldenEclipse
+		requirements: []
+		time: 90
+	}
+
+]
+
+requirements: [ ]
+buildCostMultiplier: 0.1
+
+category: units
+research: duo
+
+alwaysUnlocked: true

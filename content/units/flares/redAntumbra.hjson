@@ -1,0 +1,42 @@
+health: 20000
+armor: 9
+
+speed: 3.5
+drag: 0.02
+type: flying
+hitSize: 40
+range: 200
+engineOffset: 21
+engineSize: 5.3
+rotateSpeed: 0.1
+baseRotateSpeed: 0.04
+flying: true
+
+weapons: [
+{
+  name: boss2-spectre-weapon
+  x: -22
+  y: 0
+  reload: 6
+  inaccuracy: 3
+  alternate: true
+  ejectEffect: casing4
+  velocityRnd: 0.2
+  rotate: true
+  shootCone: 20
+  bullet: {
+    type: BasicBulletType
+    speed: 8
+    width: 16
+    height: 23
+    shootEffect: shootBig
+    damage: 180
+    frontColor: ffffff
+    backColor: ff6868
+  } 
+  shootSound: shootBig
+  shootShake: 2
+}]
+
+research: greenAntumbra
+alwaysUnlocked: true

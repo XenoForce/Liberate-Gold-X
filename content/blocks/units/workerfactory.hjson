@@ -1,0 +1,39 @@
+type: UnitFactory
+name: Worker Factory
+description: Worker Factory
+
+health: 99000
+size: 3
+itemCapacity: 30
+
+consumes: {}
+	
+plans: [
+
+	{
+		unit: ghost
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: sigma
+		requirements: []
+		time: 90
+	}
+	,
+	{
+		unit: hammer
+		requirements: []
+		time: 90
+	}
+
+]
+
+requirements: [ ]
+buildCostMultiplier: 0.1
+
+category: units
+research: duo
+
+alwaysUnlocked: true

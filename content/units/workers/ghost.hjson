@@ -1,0 +1,17 @@
+health: 400
+armor: 1
+
+speed: 2.5
+drag: 0.06
+accel: 0.12
+type: flying
+flying: true
+range: 50
+mineTier: 4
+mineSpeed: 1.5
+itemCapacity: 60
+
+weapons: []
+
+research: workerfactory
+alwaysUnlocked: true

@@ -1,0 +1,31 @@
+health: 350
+armor: 3
+
+speed: 1
+type: mech
+flying: false
+range: 320
+
+weapons: [{
+  name: sniperRifle
+  x: -4
+  y: 0
+  ejectEffect: casing1
+  reload: 60
+  alternate: true
+  bullet: {
+    type: BasicBulletType
+    width: 9
+    height: 12
+    lifetime: 30
+    speed: 12
+    damage: 180
+    sprite: libgoldx-apShell
+    frontColor: F0E4A8
+    backColor: deae66
+  }
+  shootSound: shoot
+}]
+
+research: goldenDagger
+alwaysUnlocked: true

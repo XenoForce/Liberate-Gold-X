@@ -1,0 +1,25 @@
+health: 1800
+armor: 2
+
+speed: 1.0
+drag: 0.2
+type: legs
+hitSize: 9
+rotateSpeed: 0.05
+targetAir: false
+immunities: [ burning, melting ]
+
+weapons: [{
+  name: goldEruption
+  x: -3
+  y: 0
+  reload: 5
+  alternate: true
+  ejectEffect: none
+  bullet: slagShot
+  recoil: 0
+  shootSound: flame
+}]
+
+research: goldenCrawler
+alwaysUnlocked: true

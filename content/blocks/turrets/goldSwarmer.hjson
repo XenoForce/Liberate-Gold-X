@@ -1,0 +1,40 @@
+type: ItemTurret
+
+health: 3600
+size: 2
+reloadTime: 40
+shots: 4
+burstSpacing: 5
+inaccuracy: 2
+range: 185
+xRand: 5
+shootSound: missile
+
+
+ammoTypes: {
+
+copper: {
+  type: MissileBulletType
+  speed: 2.7
+  width: 8
+  height: 8
+  drag: -0.01
+  splashDamageRadius: 48
+  splashDamage: 100
+  damage: 95
+  ammoMultiplier: 5
+  lifetime: 150
+  hitEffect: blastExplosion
+  status: burning
+  lightning: 3
+  lightningLength: 20
+}}
+
+
+requirements: [ copper/1 ]
+buildCostMultiplier: 0.1
+
+category: turret
+research: goldSalvo
+
+alwaysUnlocked: true

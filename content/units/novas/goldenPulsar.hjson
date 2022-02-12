@@ -1,0 +1,14 @@
+health: 900
+armor: 4
+
+speed: 1.0
+type: mech
+canBoost: true
+boostMultiplier: 1.6
+hitSize: 10
+buildSpeed: 1
+mineTier: 2
+mineSpeed: 5
+
+research: goldenNova
+alwaysUnlocked: true

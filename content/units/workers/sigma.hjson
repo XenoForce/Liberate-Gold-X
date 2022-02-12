@@ -1,0 +1,30 @@
+health: 500
+armor: 2
+
+speed: 4
+drag: 0.1
+type: flying
+flying: true
+buildSpeed: 1.1
+mineTier: 3
+
+weapons: [
+{
+  name: clear
+  x: 4
+  y: 4
+  reload: 30
+  alternate: true
+  bullet: standardDense
+}
+{
+  name: clear
+  x: 0
+  y: 0
+  reload: 120
+  shots: 2
+  bullet: standardHoming
+}]
+
+research: ghost
+alwaysUnlocked: true
