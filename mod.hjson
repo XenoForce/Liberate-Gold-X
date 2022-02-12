@@ -1,0 +1,7 @@
+name: libgoldx
+displayName: Liberate Gold Components
+author: XenoTale
+description: Get access to components from GoldMod
+version: "1.0"
+minGameVersion: "135"
+dependencies: []
