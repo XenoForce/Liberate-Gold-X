@@ -1,4 +1,4 @@
-# Liberate-Gold-X
+# Liberate Gold Components
 Provides easy access to units and components of GoldMod.
 
 <br>
