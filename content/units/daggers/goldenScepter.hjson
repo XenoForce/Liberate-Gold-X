@@ -32,25 +32,7 @@ weapons: [
     lightningDamage: 120
   }
   shootSound: shootBig
-}
-{
-  name: gMountWeapon
-  x: 8.5
-  y: 6
-  reload: 13
-  rotate: true
-  ejectEffect: casing1
-  bullet: standardCopper
-}
-{
-  name: gMountWeapon
-  x: 8.5
-  y: -7
-  reload: 16
-  rotate: true
-  ejectEffect: casing1
-  bullet: standardCopper
-} ]
+}]
 
 research: goldenFortress
 alwaysUnlocked: true

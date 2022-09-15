@@ -15,7 +15,15 @@ weapons: [
   y: 4
   reload: 30
   alternate: true
-  bullet: standardDense
+  
+  bullet: {
+    type: BasicBulletType
+    lifetime: 60
+    speed: 5
+    width: 8
+    height: 8
+    damage: 108
+  }
 }
 {
   name: clear
@@ -23,7 +31,15 @@ weapons: [
   y: 0
   reload: 120
   shots: 2
-  bullet: standardHoming
+  
+  bullet: {
+    type: BasicBulletType
+    lifetime: 60
+    speed: 5
+    width: 8
+    height: 8
+    damage: 108
+  }
 }]
 
 research: ghost

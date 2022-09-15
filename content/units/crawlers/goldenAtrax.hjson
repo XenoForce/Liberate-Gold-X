@@ -16,7 +16,15 @@ weapons: [{
   reload: 5
   alternate: true
   ejectEffect: none
-  bullet: slagShot
+  
+  bullet: {
+    type: BasicBulletType
+    lifetime: 60
+    speed: 5
+    width: 8
+    height: 8
+    damage: 108
+  }
   recoil: 0
   shootSound: flame
 }]

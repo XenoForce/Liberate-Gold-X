@@ -13,7 +13,17 @@ weapons: [{
   reload: 11
   alternate: true
   ejectEffect: casing1
-  bullet: standardThorium
+  
+  bullet: {
+    type: BasicBulletType
+    speed: 8
+    width: 16
+    height: 23
+    shootEffect: shootBig
+    damage: 180
+    frontColor: ffffff
+    backColor: ff6868
+  }
   shootSound: shoot
 }]
 
