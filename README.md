@@ -3,6 +3,12 @@ Provides easy access to units and components of GoldMod.
 
 <br>
 
+**WARNING:**
+
+This is effectively a cheat mod. This mod gives the player access to over-powered units and/or components. Don't use this mod, if you don't want the original game-play of the game spoiled for you!
+
+<br>
+
 **Notes:**
 
 This mod basically gives you easy access to most of the components of GoldMod.
