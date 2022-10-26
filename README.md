@@ -47,7 +47,5 @@ I hope you enjoy this mod, and have fun with it.
 
 <br>
 
-**Credits:**
-
-All credit goes to Slotterleet (GoldMod) of github URL:
+The original Gold mod can be found here:
 https://github.com/Slotterleet/GoldMod
