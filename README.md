@@ -52,4 +52,4 @@ https://github.com/Slotterleet/GoldMod
 
 <br>
 
-At the time when the components were taken from the above GoldMod, GoldMod was released under the GPLv3.
+At the time when the components were taken from GoldMod (above), GoldMod was released under the GPLv3.
