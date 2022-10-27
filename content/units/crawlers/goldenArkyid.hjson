@@ -13,7 +13,6 @@ legPairOffset: 3
 legLength: 30
 legExtension: -15
 legBaseOffset: 10
-landShake: 1
 legSpeed: 0.2
 legLengthScl: 0.96
 rippleScale: 2
@@ -21,7 +20,6 @@ legSplashDamage: 32
 legSplashRange: 30
 hovering: true
 allowLegStep: true
-visualElevation: 0.65
 
 weapons: [
 {

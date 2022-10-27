@@ -9,12 +9,15 @@ shootSound: shootBig
 health: 4800
 size: 3
 inaccuracy: 0
-spread: 20
-reloadTime: 15
-shots: 4
+reload: 15
 rotateSpeed: 30
 range: 130
 
+shoot: {
+  type: ShootSpread
+  shots: 4
+  spread: 20
+}
 
 ammoTypes: {
   copper: {

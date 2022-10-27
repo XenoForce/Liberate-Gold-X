@@ -24,6 +24,7 @@ weapons: [
   velocityRnd: 0.2
   rotate: true
   shootCone: 20
+  
   bullet: {
     type: BasicBulletType
     speed: 8
@@ -35,7 +36,7 @@ weapons: [
     backColor: ff6868
   } 
   shootSound: shootBig
-  shootShake: 2
+  shake: 2
 }]
 
 research: goldenZenith

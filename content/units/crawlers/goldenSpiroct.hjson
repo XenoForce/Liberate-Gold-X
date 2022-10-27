@@ -10,13 +10,11 @@ rotateSpeed: 3
 immunities: [ burning, melting ]
 legCount: 6
 legLength: 15
-legTrns: 0.8
 legMoveSpace: 1.5
 legBaseOffset: 2
 hovering: true
 buildSpeed: 0.8
 allowLegStep: true
-visualElevation: 0.4
 
 weapons: [
 {

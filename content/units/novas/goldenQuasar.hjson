@@ -8,8 +8,6 @@ hitSize: 12
 boostMultiplier: 2
 buildSpeed: 2
 canBoost: true
-landShake: 2
-commandLimit: 10
 mechFrontSway: 0.55
 mineSpeed: 6
 drawShields: false

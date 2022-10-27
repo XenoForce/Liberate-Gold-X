@@ -15,9 +15,14 @@ weapons: [
   alternate: true
   recoil: 3
   shake: 2
-  shots: 4
-  spacing: 4
-  shotDelay: 5
+  
+  shoot: {
+    type: ShootSpread
+    shots: 4
+    shotDelay: 5
+    spread: 4
+  }
+  
   ejectEffect: casing2
   bullet: {
     type: BasicBulletType

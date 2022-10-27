@@ -30,7 +30,12 @@ weapons: [
   x: 0
   y: 0
   reload: 120
-  shots: 2
+  
+  shoot: {
+    type: ShootSpread
+    shots: 2
+    spread: 0
+  }
   
   bullet: {
     type: BasicBulletType

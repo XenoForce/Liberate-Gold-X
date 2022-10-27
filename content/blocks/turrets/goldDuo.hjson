@@ -6,15 +6,17 @@ hasItems: true
 hasLiquids: false
 itemCapacity: 10
 range: 180
-reloadTime: 12
+reload: 12
 inaccuracy: 2
-shots: 2
 
+shoot: {
+  type: ShootSpread
+  shots: 2
+  spread: 0
+}
 
 ammoTypes: {
-
-copper:
-{
+copper: {
   type: BasicBulletType 
   width: 9
   height: 12

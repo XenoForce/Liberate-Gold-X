@@ -2,17 +2,19 @@ type: ItemTurret
 
 health: 3600
 size: 2
-reloadTime: 40
-shots: 4
-burstSpacing: 5
+reload: 40
 inaccuracy: 2
 range: 185
 xRand: 5
 shootSound: missile
 
+shoot: {
+  type: ShootSpread
+  shots: 4
+  spread: 5
+}
 
 ammoTypes: {
-
 copper: {
   type: MissileBulletType
   speed: 2.7

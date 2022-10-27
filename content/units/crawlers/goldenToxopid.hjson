@@ -13,7 +13,6 @@ legPairOffset: 3
 legLength: 75
 legExtension: -20
 legBaseOffset: 8
-landShake: 1
 legSpeed: 0.19
 legLengthScl: 0.93
 rippleScale: 3
@@ -21,7 +20,6 @@ legSplashDamage: 160
 legSplashRange: 80
 hovering: true
 allowLegStep: true
-visualElevation: 0.95
 
 weapons: [
 {
@@ -36,8 +34,13 @@ weapons: [
   shootSound: shootBig
   rotate: true
   recoil: 3
-  shots: 2
-  spacing: 17
+  
+  shoot: {
+    type: ShootSpread
+    shots: 2
+    spread: 17
+  }
+  
   bullet: {
     type: ShrapnelBulletType
     length: 90

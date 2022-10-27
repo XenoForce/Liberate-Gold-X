@@ -15,8 +15,14 @@ weapons: [{
   x: -6
   y: 8
   reload: 14
-  shots: 2
-  shotDelay: 2
+  
+  shoot: {
+    type: ShootSpread
+    shots: 2
+    shotDelay: 2
+    spread: 0
+  }
+  
   alternate: true
   ejectEffect: none
   velocityRnd: 0.2

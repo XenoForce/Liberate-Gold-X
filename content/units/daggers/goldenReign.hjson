@@ -18,9 +18,9 @@ weapons: [
   alternate: true
   recoil: 5
   shake: 4
-  shotDelay: 3
   reload: 9
   ejectEffect: casing4
+  
   bullet: {
     type: BasicBulletType
     speed: 13
@@ -37,7 +37,7 @@ weapons: [
     splashDamageRadius: 40
     fragBullets: 2
     fragLifeMin: 0
-    fragCone: 30
+    
     fragBullet: {
       type: BasicBulletType
       speed: 9

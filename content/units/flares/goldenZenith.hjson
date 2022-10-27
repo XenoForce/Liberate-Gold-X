@@ -16,15 +16,20 @@ weapons: [{
   x: -10
   y: 0
   reload: 70
-  shots: 6
   inaccuracy: 2
   alternate: true
   rotate: true
   ejectEffect: none
   velocityRnd: 0.2
-  spacing: 1
   shootCone: 60
   shootSound: missile
+  
+  shoot: {
+    type: ShootSpread
+    shots: 6
+    spread: 1
+  }
+  
   bullet: {
     type: MissileBulletType
     width: 8

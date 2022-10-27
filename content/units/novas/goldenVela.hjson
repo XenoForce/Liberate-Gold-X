@@ -8,15 +8,12 @@ rotateSpeed: 1.6
 canDrown: false
 mechFrontSway: 1
 mechStepParticles: true
-mechStepShake: 0.2
 boostMultiplier: 2.1
 engineOffset: 12
 engineSize: 6
 lowAltitude: true
 canBoost: true
-landShake: 5
 immunities: [ burning ]
-commandLimit: 8
 
 weapons: [
 {
@@ -33,7 +30,7 @@ weapons: [
   shootSound: beam
   continuous: true
   cooldownTime: 200
-  firstShotDelay: 39
+  
   bullet: {
     type: ContinuousLaserBulletType
     damage: 180

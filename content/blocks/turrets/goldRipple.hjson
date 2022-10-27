@@ -2,20 +2,21 @@ type: ItemTurret
 
 health: 2500
 size: 3
-shots: 4
 inaccuracy: 6
-reloadTime: 40
+reload: 40
 ammoEjectBack: 5
 ammoUseEffect: casing4
-cooldown: 0.03
-velocityInaccuracy: 0.2
-restitution: 0.02
-shootShake: 2
+shake: 2
 range: 290
 shootSound: artillery
 
-ammoTypes: {
+shoot: {
+  type: ShootSpread
+  shots: 4
+  spread: 0
+}
 
+ammoTypes: {
 copper: {
   type: BasicBulletType
   width: 9

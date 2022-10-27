@@ -1,5 +1,5 @@
 health: 18000
-Armor: 4
+armor: 4
 
 speed: 3.5
 drag: 0.02
@@ -17,14 +17,19 @@ weapons: [{
   x: -22
   y: 0
   reload: 60
-  shots: 16
-  shotDelay: 2
+  
+  shoot: {
+    type: ShootSpread
+    shots: 16
+    shotDelay: 2
+    spread: 1
+  }
+  
   inaccuracy: 10
   alternate: true
   rotate: true
   ejectEffect: none
   velocityRnd: 0.2
-  spacing: 1
   shootCone: 20
   bullet: {
     type: MissileBulletType

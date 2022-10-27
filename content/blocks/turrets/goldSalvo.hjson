@@ -3,20 +3,20 @@ type: ItemTurret
 health: 960
 size: 2
 range: 170
-reloadTime: 30
-restitution: 0.03
+reload: 30
 coolantMultiplier: 20
 ammoEjectBack: 3
-cooldown: 0.03
-shootShake: 2
-burstSpacing: 3
-shots: 4
+shake: 2
 ammoUseEffect: casing4
 shootSound: shootBig
 
+shoot: {
+  type: ShootSpread
+  shots: 4
+  spread: 3
+}
 
 ammoTypes: {
-
 copper: {
   type: BasicBulletType
   width: 9
