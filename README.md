@@ -49,3 +49,7 @@ I hope you enjoy this mod, and have fun with it.
 
 The original Gold mod can be found here:
 https://github.com/Slotterleet/GoldMod
+
+<br>
+
+At the time when the components were taken from the above GoldMod, GoldMod was released under the GPLv3.
